@@ -29,7 +29,7 @@ public class HeapSort {
     }
     public static void heapSort(int[] arr){
         buildmaxHeapify(arr);
-        for (int i=arr.length-1;i>=0;i--){
+        for (int i=arr.length-1;i>=1;i--){
             int tem = arr[0];
             arr[0] = arr[i];
             arr[i] = tem;
