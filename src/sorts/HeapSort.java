@@ -2,7 +2,7 @@ package sorts;
 
 /**
  * Created by YGZ on 2016/4/21.
- * My email : errrrorer@foxmail.com
+ * My email : gzyang1125@foxmail.com
  */
 public class HeapSort {
     public static void maxHeapify(int[] arr,int heapsize,int i){
